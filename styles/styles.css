@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  outline: 0;
+}
+
+body {
+	background-image: url(../img/fon.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+	width: 70%;
+	margin: 70px auto;
+	background-color: rgba(227, 181, 133, 0.6);
+	box-shadow: 11px -11px 15px #3d3630;
+	color: #300;
+	border-radius: 5px;
+}
+
+main {
+	width: 100%;
+}
+
+section {
+	width: 90%;
+	margin: 30px auto;
+	padding: 60px auto;
+}
+header {
+	width: 100%;
+	padding: 40px auto;
+	padding-bottom: 60px;
+}
+
+.count_of_messages {
+	padding-left: 30px;
+	margin-bottom: 30px;
+	color: rgb(63, 58, 214);
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.all_list_p {
+	padding: 10px 30px;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.all_list_span {
+	padding: 10px 30px;
+	font-size: 18px;
+}
+
+h1 {
+	color: rgb(63, 58, 214);
+	height: 60px;
+	padding-top: 22px;
+	font-size: 30px;
+	margin-left: 200px;
+	text-shadow: 1px 1px 3px orange, 0 0 1em white;
+}
+
+p, span, li, label, input, a {
+	font-size: 20px;
+}
+
+input {
+	font-size: 16px;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+
+.welcome {
+	width: 80%;
+	text-align: right;
+	margin-left: 10%;
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 26px;
+}
+
+ul {
+	list-style:none;
+	padding-left: 40px;
+}
+
+.outer_li {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(12 * 0.8em);
+	font-size: 0.9em;
+	text-align: center;
+	margin-left: 8px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	padding: 5px;
+	background-color: #FCC;
+	box-shadow: 9px 9px 10px #2e1721;
+}
+
+a {
+ 	color: #300;
+ 	text-decoration: none;
+ }
+
+.outer_li:hover {
+	background-color: #966;
+}
+
+.outer_li:active {
+	box-shadow: 9px 9px 10px white;
+	background-color: #633;
+	color: white;
+}
+
+.enter_p {
+	padding: 10px 30px;
+}
+
+.enter_form {
+	width: 90%;
+	margin: 10px 30px;
+}
+
+.enter_input {
+	width: 30%;
+	height: 30px;
+	border: 1px solid grey;
+}
+
+.button {
+	background: linear-gradient(white, darkgrey);
+	border-radius: 8px;
+	box-shadow: 3px 3px 5px darkgrey;
+	border: 1px solid grey;
+	color: black;
+	cursor: pointer;
+}
+
+.enter_sub {
+	width: 20%;
+	padding: 3px;
+	margin: 30px;
+	margin-left: 11%;
+}
+
+
+.reg_sub {
+	width: 20%;
+	padding: 3px;
+	margin: 30px;
+	margin-left: 11%;
+}
+
+.msg_sub {
+	width: 37%;
+	padding: 3px;
+	margin: 30px;
+	margin-left: 42%;
+}
+
+.button:hover {
+	background: linear-gradient(#eee, grey);
+}
+
+.enter_label {
+	width: 30%;
+	display: block;
+	margin: 10px 20px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.enter_error {
+	color: red;
+	margin-left: 30px;
+	font-style: italic;
+}
+
+
+.msg_form {
+	width: 48%;
+	margin: 50px 100px;
+	//border: 1px solid grey;
+}
+
+.msg_label {
+	width: 30%;
+	display: block;
+	margin: 10px 20px;
+}
+
+.error_msg {
+	color: red;
+	margin-left: 15px;
+}
+
+
+textarea {
+	font-size: 20px;
+	width: 80%;
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+.count_of_notes {
+	margin-left: 5%;
+	text-decoration: underline;
+}
+
+.user_list {
+	padding: 1% 5%;
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+.list_button {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: calc(8 * 0.8em);
+	font-size: 0.8em;
+}
+
+.button_a {
+	font-size: 0.8em;
+}
+
+.span_del {
+	margin-left: 64%;
+}
+
+.span_edit {
+	margin-left: 4%;
+}
